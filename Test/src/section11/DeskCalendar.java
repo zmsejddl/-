@@ -1,8 +1,8 @@
 package section11;
 
-public class DarkCalendar extends Calendar {
+public class DeskCalendar extends Calendar {
 
-	DarkCalendar(String color, int months) {
+	DeskCalendar(String color, int months) {
 		super(color, months);
 	}
 
