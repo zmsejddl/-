@@ -1,8 +1,8 @@
 package section11;
 
 public class ComputerRoom {
-	Samsong computer1;
-	Samsong computer2;
+	Computer computer1;
+	Computer computer2;
 
 	void allPowerOn() {
 		computer1.powerOn();
