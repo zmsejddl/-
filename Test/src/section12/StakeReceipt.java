@@ -5,7 +5,7 @@ public class StakeReceipt extends Receipt {
 		super(chef);
 	}
 
-	void trillStake() {
+	void grillStake() {
 		System.out.println("스테이크를 앗있게 굽습니다.");
 	}
 }
