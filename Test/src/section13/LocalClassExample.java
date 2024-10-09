@@ -4,9 +4,10 @@ public class LocalClassExample {
 	private int speed = 10;
 
 	public void getUnit(String unitName) {
-
+		unitName = unitName + " 님";
 		class Unit {
 			public void move() {
+				// unitName에서 오류 발생
 				System.out.println(unitName + "이 " + speed + " 속도로 이동합니다.");
 			}
 		}
