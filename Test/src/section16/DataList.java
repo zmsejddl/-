@@ -1,6 +1,6 @@
 package section16;
 
-public class DataList {
+public class DataList<T> {
 	private Object[] data;
 	private int size;
 	private int defaultSize = 10;
@@ -13,12 +13,12 @@ public class DataList {
 		data = new Object[size];
 	}
 
-	public void add(Object value) {
+	public void add(T value) {
 		data[size++] = value;
 	}
 
-	public Object get(int index) {
-		return data[index];
+	public T get(int index) {
+		return (T) data[index];
 	}
 
 	public int size() {
