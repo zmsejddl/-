@@ -2,14 +2,23 @@ package section18;
 
 public class RunnableExample {
 	public static void main(String[] args) {
-		// Runnable 인터페이스를 익명 객체로 처리
+
+		Runnable blue = () -> {
+			while (true) {
+				System.out.println("청기 올려");
+			}
+		};
+
 		Runnable white = () -> {
 			while (true) {
 				System.out.println("백기 올려");
 			}
 		};
 
+		Thread blueFlag = new Thread(blue);
 		Thread whiteFlag = new Thread(white);
+
+		blueFlag.start();
 		whiteFlag.start();
 	}
 }
