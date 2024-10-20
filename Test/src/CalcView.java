@@ -17,7 +17,7 @@ public class CalcView extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		tf_num1.setBounds(50, 50, 40, 40);
-		tf_num2.setBounds(50, 50, 40, 40);
+		tf_num2.setBounds(100, 50, 40, 40);
 		btn_plus.setBounds(150, 50, 80, 40);
 		la_result.setBounds(50, 100, 200, 40);
 
