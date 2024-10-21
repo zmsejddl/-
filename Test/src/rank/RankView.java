@@ -23,6 +23,7 @@ public class RankView extends JFrame {
 		JTable ta_rank = new JTable(rank, column);
 		JScrollPane scrollpane = new JScrollPane(ta_rank);
 
+		// 창 가로, 창 세로, 폭, 높이
 		la_rank.setBounds(200, 30, 100, 30);
 		btn_exit.setBounds(470, 10, 80, 30);
 		scrollpane.setBounds(160, 60, 200, 200);
