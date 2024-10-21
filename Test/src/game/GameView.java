@@ -24,6 +24,7 @@ public class GameView extends JFrame {
 
 		setLayout(null);
 
+		// 창 가로, 창 세로, 폭, 높이
 		la_notice.setBounds(240, 10, 300, 30);
 
 		tf_num1.setBounds(200, 40, 50, 50);
@@ -48,6 +49,7 @@ public class GameView extends JFrame {
 		ta_result.append(result);
 	}
 
+	// 게임이 종료되면: 텍스트 필드, 버튼 비활성화
 	public void stop() {
 		tf_num1.setEnabled(false);
 		tf_num2.setEnabled(false);
